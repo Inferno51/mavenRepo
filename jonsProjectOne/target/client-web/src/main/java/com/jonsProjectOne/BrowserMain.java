@@ -1,0 +1,10 @@
+package com.jonsProjectOne;
+
+public class BrowserMain {
+    private BrowserMain() {
+    }
+    
+    public static void main(String... args) throws Exception {
+        AppCntrl.onPageLoad();
+    }
+}

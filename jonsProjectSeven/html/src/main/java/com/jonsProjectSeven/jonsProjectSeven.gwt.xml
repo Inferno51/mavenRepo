@@ -1,0 +1,11 @@
+<module rename-to='jonsProjectSeven'>
+  <inherits name='playn.PlayN'/>
+  <inherits name='jonsProjectSevenAssets'/>
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='com.jonsProjectSeven.html.jonsProjectSevenHtml'/>
+</module>
