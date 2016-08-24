@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472062864527_1" label="jonsProjectOne-pom" name="jonsProjectOne-pom">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectOne" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectOne-js" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472063675442_2" label="jonsProjectSeven" name="jonsProjectSeven">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectSeven" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectSeven-assets" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectSeven-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectSeven-java" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectSeven-android" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectSeven-robovm" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectSeven-html" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472063690153_3" label="jonsProjectEight" name="jonsProjectEight">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectEight" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectEight-model" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectEight-server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/jonsProjectEight-gwt-client" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1472062835413_0" label="Window Working Set" name="Aggregate for window 1472062835413"/>
+</workingSetManager>

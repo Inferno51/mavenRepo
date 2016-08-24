@@ -1,0 +1,133 @@
+!SESSION 2016-08-24 14:20:17.724 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-08-24 14:20:38.413
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-08-24 14:20:39.020
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Remote host closed connection during handshake. ; version: 2.0.1.v20160605-1811
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:992)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:505)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	... 22 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-24 14:21:04.635
+!MESSAGE Project jonsProjectOne already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:05.960
+!MESSAGE Could not transfer metadata org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Remote host closed connection during handshake
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:05.974
+!MESSAGE Failure to transfer org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Remote host closed connection during handshake
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:05.987
+!MESSAGE Failure to transfer org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Remote host closed connection during handshake
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:07.955
+!MESSAGE Failure to transfer org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Remote host closed connection during handshake
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:07.973
+!MESSAGE Failure to transfer org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Remote host closed connection during handshake
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:07.984
+!MESSAGE Failure to transfer org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-site-plugin/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): Remote host closed connection during handshake
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:26.888
+!MESSAGE The POM for org.mule.modules:mule-module-ibeans:jar:3.2.0-M1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:27.186
+!MESSAGE The POM for org.mule.tests:mule-tests-functional:jar:3.2.0-M1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:28.629
+!MESSAGE The POM for org.mule.modules:mule-module-ibeans:jar:3.2.0-M1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:28.634
+!MESSAGE The POM for org.mule.tests:mule-tests-functional:jar:3.2.0-M1 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-08-24 14:21:29.118
+!MESSAGE Status ERROR: org.eclipse.equinox.p2.discovery code=0 Failed to discover all connectors. null children=[Status ERROR: org.eclipse.equinox.p2.discovery code=0 M2ERemoteBundleDiscoveryStrategy failed with an error org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://download.eclipse.org/technology/m2e/discovery/directory-1.7.xml.]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:29.389
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:21:29.401
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:25:23.535
+!MESSAGE The POM for org.hibernate:hibernate-search-analyzers:jar:1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:26:56.883
+!MESSAGE The POM for org.hibernate:hibernate-search-analyzers:jar:1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:37:57.430
+!MESSAGE The POM for jlayer:mp3spi:jar:1.9.5 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:38:35.717
+!MESSAGE The POM for com.google.android:apk-expansion:jar:r3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:38:37.157
+!MESSAGE The POM for com.googlecode.playn:playn-android-nativelib:so:1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:41:49.225
+!MESSAGE The POM for com.dyuproject.protostuff:protostuff-core:jar:1.0.2-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:41:49.303
+!MESSAGE The POM for com.dyuproject.protostuff:protostuff-json:jar:1.0.2-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:43:57.000
+!MESSAGE The POM for com.dyuproject.protostuff:protostuff-core:jar:1.0.2-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:43:57.052
+!MESSAGE The POM for com.dyuproject.protostuff:protostuff-json:jar:1.0.2-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:45:31.507
+!MESSAGE The POM for com.dyuproject.protostuff:protostuff-core:jar:1.0.2-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:45:33.792
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:45:33.804
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:45:33.986
+!MESSAGE The POM for com.google.android:apk-expansion:jar:r3 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:45:33.996
+!MESSAGE The POM for com.googlecode.playn:playn-android-nativelib:so:1.0 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-08-24 14:48:48.856
+!MESSAGE The POM for jlayer:mp3spi:jar:1.9.5 is missing, no dependency information available
